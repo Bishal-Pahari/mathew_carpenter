@@ -1,0 +1,37 @@
+#wrapper{
+    width: 1200px;
+    margin: auto;
+    background-color: aqua;
+}
+img{
+    width: 75%;
+    margin: auto;
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+.menu-item{
+    width: 75%;
+}
+.menu-item ul{
+    float: right;
+    list-style: none;
+}
+.menu-area{
+    overflow: hidden;
+    background-color: rgb(41, 118, 170);
+}
+.menu-item a:hover{
+    color: grey;
+}
+.menu-area ul li{
+    display: inline-block;
+}
+.menu-area ul li a{
+    display: inline-block;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000000;
+}
